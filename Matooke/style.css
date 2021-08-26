@@ -23,6 +23,17 @@ body {
     background-color:#3d3b8e;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: auto 500px;
+    grid-template-rows: auto 500px;
+    gap: 20px; 
+}
+
+img{
+    grid-column: 2;
+}
+
 /* Laptop etc */
 
 @media (min-width:480px){
