@@ -1,0 +1,48 @@
+/*css*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* Mobile*/
+
+h1{
+    font-size:20px; color:#fff;
+}
+
+h2{
+    font-size:18px; color:#fff;
+}
+
+p{
+    font-size:14px; color:#FFF;
+}
+
+body {
+    background-color:#3d3b8e;
+}
+
+/* Laptop etc */
+
+@media (min-width:480px){
+    h1{
+        font-size:50px; color:#000;
+    }
+
+    h2{
+        font-size:48px; color:#000;
+    }
+
+    p{
+        font-size:26px; color:#000;
+    }
+
+    body{
+        background-color:#3d3b8e;
+    }
+
+    .container{
+        display: flex;
+    }
+}
